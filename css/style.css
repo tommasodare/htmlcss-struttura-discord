@@ -66,24 +66,30 @@
         }
     }
 
-    .invite-only.cnt-section {
+.cnt-section {
         min-height: 400px;
         padding-top:30px;
         padding-bottom: 30px;
         padding-left: 200px;
         padding-right: 200px;
+}
+
+.invite-only {
         display: flex;
 
+}
 
-
-    }
-
-    .big-box {
+.big-box {
         width: 60%;
         background-color: blue;
-    }
+}
 
-    .small-box {
+.small-box {
         width: 40%;
         background-color: pink;
-    }
+}
+
+.community {
+    background-color: lightgrey;
+    display: flex;
+}
