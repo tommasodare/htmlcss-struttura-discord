@@ -93,3 +93,7 @@
     background-color: lightgrey;
     display: flex;
 }
+
+.fandom {
+    display: flex;
+}
