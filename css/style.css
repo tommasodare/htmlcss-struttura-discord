@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.top, #jumbotron, .cnt-section, .table {
+.top, #jumbotron, .cnt-section, .table, #ft_conteiner {
     padding: 1rem 13rem 1rem 13rem;
 }
 
 .top {
-    background-color: rgb(0, 255, 255);
+    background-color: #add8e6;
     
 }
 
@@ -18,7 +18,7 @@
     justify-content: space-around;
     align-items: center;
     min-height: 30px;
-    background-color: yellow;
+    background-color: #daa520;
 }
 
 .header > div {
@@ -55,15 +55,15 @@
     }
 
     #jumbotron {
-        background-color: blue;
+        background-color: #00008b;
         display: flex;
         align-items: center;
         
         div {
             height: 300px;
-            width: 60%;
+            width: 70%;
             margin: auto;
-            background-color: blueviolet;
+            background-color: #ee82ee;
         }
     }
 
@@ -78,16 +78,16 @@
 
 .big-box {
         width: 60%;
-        background-color: blue;
+        background-color: #1e90ff;
 }
 
 .small-box {
         width: 40%;
-        background-color: pink;
+        background-color: #ffc0cb;
 }
 
 .community {
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     display: flex;
 }
 
@@ -96,30 +96,48 @@
 }
 
 #tecnology {
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     display: flex;
     align-items: center;
     
     div {
         min-height: 800px;
         width: 100%;
-        background-color: green;
+        background-color: #228b22;
     }
 }
 
 .table {
     height: 700px;
-    background-color: rgb(36, 36, 36);
+    background-color: #23272a;
     display: flex;
     justify-content: space-between;
 }
 
 #nav {
     width: 33%;
-    background-color: pink;
+    background-color: #f08080;
 }
 
 .aside {
     width: 16%;
-    background-color: rgb(14, 195, 195);
+    background-color: #20b2aa;
+}
+
+#ft_conteiner {
+    background-color: #23272a;
+    min-height: 50px;
+}
+
+#footer {
+    min-height: 30px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ft_logo, #ft_button {
+    background-color: #ffb6c1;
+    padding: 2px;
 }
