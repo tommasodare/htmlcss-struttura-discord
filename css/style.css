@@ -23,6 +23,12 @@
     width: 25%;
 }
 
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+}
+
 .list-unstyled {
     display: flex;
     list-style: none;
@@ -43,4 +49,19 @@
     #login_bt {
         display: flex;
         justify-content: flex-end;
+        padding-right: 0.5rem;
+    }
+
+    #jumbotron {
+        height: 400px;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        
+        div {
+            height: 300px;
+            width: 50%;
+            margin: auto;
+            background-color: blueviolet;
+        }
     }
